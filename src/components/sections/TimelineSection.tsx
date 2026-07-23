@@ -42,7 +42,7 @@ function PeriodCard({ period, index, isActive, onClick }: {
         className={`glass-card rounded-2xl p-6 md:p-8 transition-all duration-300 ${
           isActive ? 'ring-2 ring-opacity-60' : 'hover:border-white/15'
         }`}
-        style={isActive ? { ringColor: period.color } : {}}
+        style={isActive ? ({ '--tw-ring-color': period.color } as React.CSSProperties) : {}}
       >
         {/* Header */}
         <div className="flex items-start justify-between mb-4">
