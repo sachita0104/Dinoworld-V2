@@ -367,8 +367,6 @@ export default function HeroSection() {
               <Cloud
   opacity={0.14}
   speed={0.1}
-  width={18}   // <-- DELETE THIS LINE
-  depth={2}    // <-- DELETE THIS LINE
   segments={14}
 />
             </Float>
