@@ -1,7 +1,6 @@
 // src/app/dinosaur/[slug]/DinosaurDetailClient.tsx
 'use client';
 
-import { Suspense } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';

@@ -4,7 +4,6 @@
 import { useMemo, useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 import { useStore } from '@/store/useStore';
 import { filterDinosaurs } from '@/data/dinosaurs';
 import { cn, PERIOD_COLORS, DIET_ICONS, HABITAT_ICONS } from '@/lib/utils';

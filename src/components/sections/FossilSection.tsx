@@ -4,7 +4,6 @@
 import { useState, useRef, useCallback } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { DINOSAURS } from '@/data/dinosaurs';
-import { DIET_ICONS } from '@/lib/utils';
 
 type Cell = { revealed: boolean; hasFossil: boolean; brushCount: number };
 const GRID_SIZE   = 8;
