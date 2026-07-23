@@ -375,8 +375,6 @@ export default function HeroSection() {
                 position={[14, 9, -24]}
                 opacity={0.14}
                 speed={0.1}
-                width={18}
-                depth={2}
                 segments={14}
               />
             </Float>
