@@ -365,11 +365,12 @@ export default function HeroSection() {
 
             <Float speed={0.6} rotationIntensity={0.1} floatIntensity={0.4}>
               <Cloud
-                position={[-12, 7, -18]}
-                opacity={0.18}
-                speed={0.15}
-                segments={16}
-              />
+  opacity={0.14}
+  speed={0.1}
+  width={18}   // <-- DELETE THIS LINE
+  depth={2}    // <-- DELETE THIS LINE
+  segments={14}
+/>
             </Float>
             <Float speed={0.4} rotationIntensity={0.1} floatIntensity={0.3}>
               <Cloud
